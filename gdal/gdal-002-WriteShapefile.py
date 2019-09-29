@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 import os
-import sys
 try:
     from osgeo import ogr
 except:
