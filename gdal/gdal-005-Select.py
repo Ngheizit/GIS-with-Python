@@ -33,6 +33,35 @@ print('属性过滤前，该要素类有 {} 个要素'.format(n))
 layer.SetAttributeFilter("id = 1")
 n = layer.GetFeatureCount()
 print('属性过滤后，该要素类有 {} 个要素'.format(n))
+# 清除属性过滤
+layer.SetAttributeFilter(None)
+n = layer.GetFeatureCount()
+print('清除属性过滤，该要素类的要素数目恢复为{}'.format(n))
+
+# 空间过滤 Spatial filters
+layer.SetSpatialFilterRect(100000, 4000000, 1000000, 5000000)
+n = layer.GetFeatureCount()
+print('空间过滤后，该要素类有 {} 个要素'.format(n))
+# 清除属性过滤
+layer.SetSpatialFilter(None)
+n = layer.GetFeatureCount()
+print('清除空间过滤，该要素类的要素数目恢复为{}'.format(n))
+
+# SQL语句过滤
+'''
+layer = dataSource.ExecuteSQL("select count(*) from sites where id = 1")
+print(layer)
+
+
+layer = dataSource.ExecuteSQL("select * from sites where id = 1 order by NAME desc")
+feat = layer.GetNextFeature()
+while feat:
+    print(feat.GetField('NMAE'))
+    feat = layer.GetNextFeature()
+dataSource.ReleaseResultSet(layer)
+'''
+
+
 
 
 
