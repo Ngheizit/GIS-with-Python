@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-import os, sys, utils, numpy
+import os, sys, numpy
 try:
     from osgeo import gdal
 except:
@@ -81,3 +81,16 @@ print(data)
 
 # 统计大于零的像素个数
 print(numpy.sum(data))
+
+# 计算NDVI
+band2 = dataSource.GetRasterBand(2)
+band3 = dataSource.GetRasterBand(3)
+data2 = band2.ReadAsArray(0, 0, cols,rows).astype(numpy.float16)
+data3 = band3.ReadAsArray(0, 0, cols,rows).astype(numpy.float16)
+mask = numpy.greater(data3 + data2, 0)
+ndvi = numpy.choose(mask, (-99, (data3 - data2) / (data3 + data2)))
+print(ndvi)
+
+
+
+
