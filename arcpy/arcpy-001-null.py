@@ -9,25 +9,22 @@ sys.path.extend(arcpy_path)
 import arcpy
 arcpy.gp.overweiteOutput = 1 # 覆盖重名文件
 
-datatypes = ["AANP",
-            "AGNP",
-            "BOUA",
-            "BOUL",
-            "BOUP",
-            "HYDA",
-            "HYDL",
-            "HYDP",
-            "LRDL",
-            "LRRL",
-            "RESA",
-            "RESP"]
+datatypes = ["aanp",
+            "agnp",
+            "hyda",
+            "hydl",
+            "hydp",
+            "lrdl",
+            "lrrl",
+            "resa",
+            "resp"]
 
 # 设置工作空间
-arcpy.env.workspace = r"D:\geodata_old\ReSortOut\wg_ChinaData100w\FramingData"
+arcpy.env.workspace = r"D:\geodata_old\ReSortOut\wg_HeBeiData25w"
 
 # 创建文件型数据库
-# arcpy.CreateFileGDB_management(workspace2, "GDB")
-gdb = r"D:\geodata\ch_100w_2015\GDB.gdb"
+arcpy.CreateFileGDB_management(r"D:\geodata\ch_100w_2015", "GDB_hb")
+gdb = r"D:\geodata\ch_100w_2015\GDB_hb.gdb"
 
 # 读取投影坐标数据（兰伯特等积投影）
 # Beijing54 = r"Lambert_Conformal_Conic_Beijing_1954.prj"
@@ -43,15 +40,15 @@ for fcn in datatypes:
 
 
 # 获取分幅数据库集
-filelist = os.listdir(r"D:\geodata_old\ReSortOut\wg_ChinaData100w\FramingData")
+filelist = os.listdir(r"D:\geodata_old\ReSortOut\wg_HeBeiData25w\FramingData")
 print(filelist)
 
 # 拼接数据
 for datatype in datatypes:
     In_features = []
     for name in filelist:
-        In_features.append("D:\\geodata_old\\ReSortOut\\wg_ChinaData100w\\FramingData\\" + name + "\\" + datatype)
-    out_feature = "D:\\geodata\\ch_100w_2015\\GDB.gdb\\" + datatype + "\\" + datatype + "_mg"
+        In_features.append("D:\\geodata_old\\ReSortOut\\wg_HeBeiData25w\\FramingData\\" + name + "\\" + datatype + ".shp")
+    out_feature = "D:\\geodata\\ch_100w_2015\\GDB_hb.gdb\\" + datatype + "\\" + datatype + "_mg"
     arcpy.Merge_management(In_features, out_feature)
     print("Merge data: " + out_feature)
 

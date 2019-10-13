@@ -9,7 +9,7 @@ from pathlib import Path
 ###############################################################################
 
 # 参数1：下载数据ID值
-public_data_item_id = 'bfdd8f9b62154bd7a0e4df5063fa87d0'
+public_data_item_id = '90a0040f6e374302afffc1b893effc76'
 
 # 参数2：用户名
 username = "xizhewu"

@@ -11,20 +11,20 @@ from arcgis.gis import GIS
 username = "xizhewu"
 
 # 参数2： 密码
-password = "xxx"
+password = "Wxz041499"
 
 # 参数3： 矢量数据(.sho)文件路径
-data_file_path = r"D:\gitproj\gis2python\arcgis\import\Parks_and_Open_Space.shp"
+data_file_path = r"D:\geodata\ch_2015\ch_100w\web\TRAIN.shp"
 
 # 参数3： 数据信息设置
 properties = {
-    'title': 'Parks and Open Space',
-    'tags': 'parks, open data, tutorials',
+    'title': '中国主要铁路',
+    'tags': '中国, 铁路, 线状要素',
     'type': 'Shapefile'
 }
 
 # 参数4： 上传至Online文件夹名
-data_online_folder = "测试内容"
+data_online_folder = "ChinaBaseData"
 
 ##############################################################################
 

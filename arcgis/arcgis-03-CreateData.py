@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from arcgis.gis import GIS
+import time
 
 ###############################################################################
 
@@ -8,28 +9,27 @@ from arcgis.gis import GIS
 username = "xizhewu"
 
 # 参数2： 密码
-password = "XXX"
+password = "Wxz041499"
 
 ##############################################################################
 
 gis = GIS("https://www.arcgis.com", username, password)
 print('已连接至：{}'.format(gis))
 
-query = 'title: "Parks" AND type: "Feature*"'
-search_results = gis.content.search(query=query, max_items=10)
-print(search_results)
+query = 'title: ""'
+search_results = gis.content.search(query=query, max_items=100)
+# print(search_results)
 
 
-data = search_results[0]
-print(data.url)
+for data in search_results:
+    print(data)
+    print(data.title)
+    print(time.strftime("%Y-%m-%d %H:%M:%S",time.localtime(float(data.created / 1000))))
+    print(data.tags)
+    print(data.id)
+    # print(data.layers[0].url)
+    print('')
 
-feature_layers = data.layers
-print(feature_layers)
 
-layer = feature_layers[0]
-print(layer.properties.name)
-
-for field in layer.properties['fields']:
-    print('Name: {:16s}\tType: {}'.format(field['name'], field['actualType']))
 
 
