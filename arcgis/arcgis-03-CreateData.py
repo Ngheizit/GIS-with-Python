@@ -27,7 +27,10 @@ for data in search_results:
     print(time.strftime("%Y-%m-%d %H:%M:%S",time.localtime(float(data.created / 1000))))
     print(data.tags)
     print(data.id)
-    # print(data.layers[0].url)
+    try:
+        print(data.layers[0].url)
+    except:
+        pass
     print('')
 
 
