@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 import jieba
 
-source = open('丽江古城微博中文部分.txt','r')
-result = open('丽江古城微博中文部分分词.txt', 'w')
-stopwords = {}.fromkeys([line.rstrip() for line in open('stopwords.txt')])
+source = open('doc-topic.txt','r')
+result = open('doc-topic2.txt', 'w')
+stopwords = {}.fromkeys([line.rstrip() for line in open('stopwords2.txt', encoding='UTF-8')])
 lines = source.readlines()
 final = []
 for line in lines:

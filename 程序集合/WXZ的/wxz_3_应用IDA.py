@@ -36,7 +36,7 @@ corpus = [dictionary.doc2bow(text) for text in texts]
 # pprint(corpus)
 
 print("**************主题-词频率分布*************")
-lda_model = models.ldamodel.LdaModel(corpus, num_topics=20, id2word=dictionary,  passes=200)#Ö÷ÌâÊý20  µü´ú´ÎÊý200
+lda_model = models.ldamodel.LdaModel(corpus, num_topics=20, id2word=dictionary,  passes=20)#Ö÷ÌâÊý20  µü´ú´ÎÊý200
 pprint(lda_model.print_topics(num_topics=20,num_words=50))
 # result.write(str(each) for each in lda_model.print_topics(num_topics=50,num_words=40))
 corpus_lda = lda_model[corpus]

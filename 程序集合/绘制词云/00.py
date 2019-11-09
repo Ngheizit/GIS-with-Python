@@ -8,6 +8,7 @@ import matplotlib.pyplot as plt
 file=open('test1.txt','rb')
 text=file.read()
 
+
 import chardet
 encode_type = chardet.detect(text)
 text = text.decode(encode_type['encoding'])
@@ -21,6 +22,7 @@ words_index=set(words)  #去重复
 dic={index:words2.count(index) for index in words_index} #统计词频
 graph=np.array(Image.open('LOVE.jpg'))#轮廓图片读成像素矩阵
 wc=WordCloud(background_color='White',mask=graph)#设置词云背景颜色及形状
+print(dic)
 wc.generate_from_frequencies(dic)#读进词频数据
 #展示图片
 plt.imshow(wc)
