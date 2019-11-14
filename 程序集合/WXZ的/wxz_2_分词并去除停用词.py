@@ -2,8 +2,8 @@
 import jieba
 
 source = open('doc-topic.txt','r')
-result = open('doc-topic2.txt', 'w')
 stopwords = {}.fromkeys([line.rstrip() for line in open('stopwords2.txt', encoding='UTF-8')])
+result = open('doc-topic2.txt', 'w')
 lines = source.readlines()
 final = []
 for line in lines:

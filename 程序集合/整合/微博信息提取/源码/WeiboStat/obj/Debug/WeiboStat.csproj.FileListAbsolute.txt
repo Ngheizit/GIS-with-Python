@@ -1,0 +1,10 @@
+D:\gitproj\gis2python\程序集合\整合\WeiboStat\WeiboStat\bin\Debug\WeiboStat.exe.config
+D:\gitproj\gis2python\程序集合\整合\WeiboStat\WeiboStat\bin\Debug\WeiboStat.exe
+D:\gitproj\gis2python\程序集合\整合\WeiboStat\WeiboStat\bin\Debug\WeiboStat.pdb
+D:\gitproj\gis2python\程序集合\整合\WeiboStat\WeiboStat\obj\Debug\WeiboStat.FormMain.resources
+D:\gitproj\gis2python\程序集合\整合\WeiboStat\WeiboStat\obj\Debug\WeiboStat.Properties.Resources.resources
+D:\gitproj\gis2python\程序集合\整合\WeiboStat\WeiboStat\obj\Debug\WeiboStat.csproj.GenerateResource.cache
+D:\gitproj\gis2python\程序集合\整合\WeiboStat\WeiboStat\obj\Debug\WeiboStat.csproj.CoreCompileInputs.cache
+D:\gitproj\gis2python\程序集合\整合\WeiboStat\WeiboStat\obj\Debug\WeiboStat.exe
+D:\gitproj\gis2python\程序集合\整合\WeiboStat\WeiboStat\obj\Debug\WeiboStat.pdb
+D:\gitproj\gis2python\程序集合\整合\WeiboStat\WeiboStat\obj\Debug\WeiboStat.FormSchedule.resources
