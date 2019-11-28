@@ -1,4 +1,4 @@
-
+# -*- coding: utf-8 -*-
 import os
 import sys
 arcpy_path = [r'D:\software\ArcGIS\python 27\ArcGIS10.2\Lib\site-packages',

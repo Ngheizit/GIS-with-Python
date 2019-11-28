@@ -8,3 +8,6 @@ D:\gitproj\gis2python\程序集合\整合\WeiboStat\WeiboStat\obj\Debug\WeiboSta
 D:\gitproj\gis2python\程序集合\整合\WeiboStat\WeiboStat\obj\Debug\WeiboStat.exe
 D:\gitproj\gis2python\程序集合\整合\WeiboStat\WeiboStat\obj\Debug\WeiboStat.pdb
 D:\gitproj\gis2python\程序集合\整合\WeiboStat\WeiboStat\obj\Debug\WeiboStat.FormSchedule.resources
+D:\gitproj\gis2python\程序集合\整合\微博信息提取\源码\WeiboStat\bin\Debug\WeiboStat.exe.config
+D:\gitproj\gis2python\程序集合\整合\微博信息提取\源码\WeiboStat\obj\Debug\WeiboStat.exe
+D:\gitproj\gis2python\程序集合\整合\微博信息提取\源码\WeiboStat\obj\Debug\WeiboStat.pdb
