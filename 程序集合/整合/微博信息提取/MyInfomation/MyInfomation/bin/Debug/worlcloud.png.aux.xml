@@ -1,0 +1,134 @@
+<PAMDataset>
+  <SRS>PROJCS[&quot;Lambert_Conformal_Conic_CGCS_2000&quot;,GEOGCS[&quot;CGCS_2000&quot;,DATUM[2000,SPHEROID[&quot;S_2000&quot;,6378137.0,298.2572221010041]],PRIMEM[&quot;Greenwich&quot;,0.0],UNIT[&quot;Degree&quot;,0.0174532925199433]],PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;],PARAMETER[&quot;False_Easting&quot;,0.0],PARAMETER[&quot;False_Northing&quot;,0.0],PARAMETER[&quot;Central_Meridian&quot;,106.0],PARAMETER[&quot;Standard_Parallel_1&quot;,25.0],PARAMETER[&quot;Standard_Parallel_2&quot;,47.0],PARAMETER[&quot;Scale_Factor&quot;,1.0],PARAMETER[&quot;Latitude_Of_Origin&quot;,0.0],UNIT[&quot;Meter&quot;,1.0]]</SRS>
+  <Metadata domain="IMAGE_STRUCTURE">
+    <MDI key="INTERLEAVE">PIXEL</MDI>
+  </Metadata>
+  <Metadata domain="Esri">
+    <MDI key="PyramidResamplingType">NEAREST</MDI>
+  </Metadata>
+  <Metadata domain="xml:ESRI" format="xml">
+    <GeodataXform xsi:type="typens:PolynomialXform" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:typens="http://www.esri.com/schemas/ArcGIS/10.1">
+      <PolynomialOrder>1</PolynomialOrder>
+      <SpatialReference xsi:type="typens:ProjectedCoordinateSystem">
+        <WKT>PROJCS[&quot;Lambert_Conformal_Conic_CGCS_2000&quot;,GEOGCS[&quot;CGCS_2000&quot;,DATUM[&quot;D_2000&quot;,SPHEROID[&quot;S_2000&quot;,6378137.0,298.2572221010041]],PRIMEM[&quot;Greenwich&quot;,0.0],UNIT[&quot;Degree&quot;,0.0174532925199433]],PROJECTION[&quot;Lambert_Conformal_Conic&quot;],PARAMETER[&quot;False_Easting&quot;,0.0],PARAMETER[&quot;False_Northing&quot;,0.0],PARAMETER[&quot;Central_Meridian&quot;,106.0],PARAMETER[&quot;Standard_Parallel_1&quot;,25.0],PARAMETER[&quot;Standard_Parallel_2&quot;,47.0],PARAMETER[&quot;Scale_Factor&quot;,1.0],PARAMETER[&quot;Latitude_Of_Origin&quot;,0.0],UNIT[&quot;Meter&quot;,1.0]]</WKT>
+        <XOrigin>-37029500</XOrigin>
+        <YOrigin>-24284100</YOrigin>
+        <XYScale>121621940.00379413</XYScale>
+        <ZOrigin>-100000</ZOrigin>
+        <ZScale>10000</ZScale>
+        <MOrigin>-100000</MOrigin>
+        <MScale>10000</MScale>
+        <XYTolerance>0.001</XYTolerance>
+        <ZTolerance>0.001</ZTolerance>
+        <MTolerance>0.001</MTolerance>
+        <HighPrecision>true</HighPrecision>
+      </SpatialReference>
+      <CoeffX xsi:type="typens:ArrayOfDouble">
+        <Double>368441.1639882974</Double>
+        <Double>661.54261881660364</Double>
+        <Double>1.9192781971095527</Double>
+      </CoeffX>
+      <CoeffY xsi:type="typens:ArrayOfDouble">
+        <Double>3051534.5914790551</Double>
+        <Double>-1.9192781971095527</Double>
+        <Double>661.54261881660364</Double>
+      </CoeffY>
+      <InverseCoeffX xsi:type="typens:ArrayOfDouble">
+        <Double>-543.55526819175861</Double>
+        <Double>0.0015116056843078895</Double>
+        <Double>-4.385494977948303e-006</Double>
+      </InverseCoeffX>
+      <InverseCoeffY xsi:type="typens:ArrayOfDouble">
+        <Double>-4614.332831216233</Double>
+        <Double>4.3854949779483242e-006</Double>
+        <Double>0.0015116056843078895</Double>
+      </InverseCoeffY>
+      <Name />
+    </GeodataXform>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <Histograms>
+      <HistItem>
+        <HistMin>-0.5</HistMin>
+        <HistMax>255.5</HistMax>
+        <BucketCount>256</BucketCount>
+        <IncludeOutOfRange>1</IncludeOutOfRange>
+        <Approximate>0</Approximate>
+        <HistCounts>0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|845|1542|7394|387|1129|63|58|2527|51|521|60|225|19790|120|277|706|12154|104|1252|55|175|350|158|46|73|76|53|221|2332|292|76|3804|79|249|382|98|82|115|14029|274|210|111|492|273|64|142|107|100|153|160|71|325|260|77|73|85|122|61|239|110|936|87|146|72|5956|146|116|109|279|1371|138|244|201|155|183|74|163|259|85|178|54|147|65|83|163|115|114|173|157|69|122|229|343|83|112|94|179|74|124|201|75|106|191|293|103|143|117|182|80|115|214|104|224|192|784|95|113|637|124|325|165|162|109|147|131|99|214|138|81|97|93|225|378|303|249|451|196|324|102|183|125|124|90|145|157|115|80|116|103|149|178|253|263|155|237|251|125|159|109|2708|185|131|149|322|430|147|249|128|235|365|113|187|231|210|141|310|85|77|217|46|141|89|53|68|59|123|1129|52|4869|141|133|172|57|108|154|79|202|181|152|115|136|206|136|45|98|98|108|110|57|53|88|64|142|63|189|478|128|87|41|94|91|86|143|25|59|1054091</HistCounts>
+      </HistItem>
+    </Histograms>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">30</MDI>
+      <MDI key="STATISTICS_MAXIMUM">255</MDI>
+      <MDI key="STATISTICS_MEAN">238.44721540648</MDI>
+      <MDI key="STATISTICS_STDDEV">53.419966485618</MDI>
+      <MDI key="STATISTICS_SKIPFACTORX">1</MDI>
+      <MDI key="STATISTICS_SKIPFACTORY">1</MDI>
+      <MDI key="STATISTICS_COVARIANCES">2853.69281932456</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="2">
+    <Histograms>
+      <HistItem>
+        <HistMin>-0.5</HistMin>
+        <HistMax>255.5</HistMax>
+        <BucketCount>256</BucketCount>
+        <IncludeOutOfRange>1</IncludeOutOfRange>
+        <Approximate>0</Approximate>
+        <HistCounts>0|0|13906|9|4|5|6|3|2|188|150|3|8|13|6|4|6|108|2|12|4|157|6|192|10|2|14|4|3|10|4|235|4|13|5|17|3|18|2|6|18|2|6|3|30|5|4|13|0|91|4|14|7|188|7|12|5|18|5|10|4|11|2|4|13|9|4|4|9|5|271|8|11|9|2|5|9|8|3744|38|124|210|78|2079|153|197|62|21|29|29|31|40|41|19|23|38|27|81|187|30|25|36|106|61|98|22|1135|66|138|134|29|12166|706|169|243|38|94|87|25|124|89|227|40|37|84|73|60|71|150|52|42|31|2460|129|52|64|231|47|74|222|165|48|72|103|52|55|7466|111|75|1277|131|146|219|203|83|631|200|372|115|115|503|252|79|70|94|74|516|1037|201|133|75|114|136|553|222|127|19891|115|230|349|340|135|114|146|134|201|384|216|497|109|148|365|502|220|220|149|230|229|182|316|1182|5964|228|1514|280|234|170|223|245|515|371|217|392|237|341|1164|343|372|482|513|331|260|213|3021|365|311|1497|5125|600|409|548|409|401|361|355|261|326|339|231|240|149|241|228|357|195|317|113|292|343|95|84|66|70|153|68|1054115</HistCounts>
+      </HistItem>
+    </Histograms>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">2</MDI>
+      <MDI key="STATISTICS_MAXIMUM">255</MDI>
+      <MDI key="STATISTICS_MEAN">244.12258441686</MDI>
+      <MDI key="STATISTICS_STDDEV">39.452344087884</MDI>
+      <MDI key="STATISTICS_SKIPFACTORX">1</MDI>
+      <MDI key="STATISTICS_SKIPFACTORY">1</MDI>
+      <MDI key="STATISTICS_COVARIANCES">1556.48745402877</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="3">
+    <Histograms>
+      <HistItem>
+        <HistMin>-0.5</HistMin>
+        <HistMax>255.5</HistMax>
+        <BucketCount>256</BucketCount>
+        <IncludeOutOfRange>1</IncludeOutOfRange>
+        <Approximate>0</Approximate>
+        <HistCounts>0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|150|5832|24|18|18|15|151|12|7|13|13|283|16|10|2482|44|25|65|19|22|21|34|15|25|29|14|22|42|14|61|332|232|49|34|22|16|23|28|17|23|229|352|28|581|130|43|33|28|20|32|29|33|24|23|63|27|22|295|32|17|29|47|13953|27|29|43|28|241|30|210|91|1321|151|51|5848|205|917|66|99|107|93|254|50|78|55|50|79|37|262|101|57|154|74|136|271|62|92|45|91|41|204|44|60|19780|104|724|165|95|157|1447|139|76|747|383|4454|3751|7790|654|16956|524|218|269|176|283|185|205|339|391|172|166|477|153|161|258|299|157|326|326|235|249|222|378|204|202|166|247|132|272|228|381|181|546|254|218|119|250|190|247|136|143|216|184|197|328|262|226|194|259|232|308|539|193|148|504|292|210|342|173|275|207|268|332|94|156|228|118|378|329|136|241|144|293|185|148|231|296|211|300|111|200|201|267|81|127|127|62|13|15|65|45|19|34|22|33|34|142|50|49|99|59|31|70|37|69|38|35|55|38|22|60|31|1054094</HistCounts>
+      </HistItem>
+    </Histograms>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">24</MDI>
+      <MDI key="STATISTICS_MAXIMUM">255</MDI>
+      <MDI key="STATISTICS_MEAN">241.99481017142</MDI>
+      <MDI key="STATISTICS_STDDEV">41.419200638878</MDI>
+      <MDI key="STATISTICS_SKIPFACTORX">1</MDI>
+      <MDI key="STATISTICS_SKIPFACTORY">1</MDI>
+      <MDI key="STATISTICS_COVARIANCES">1715.55018156363</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="4">
+    <Histograms>
+      <HistItem>
+        <HistMin>-0.5</HistMin>
+        <HistMax>255.5</HistMax>
+        <BucketCount>256</BucketCount>
+        <IncludeOutOfRange>1</IncludeOutOfRange>
+        <Approximate>0</Approximate>
+        <HistCounts>1037320|0|224|0|355|0|0|387|0|179|0|272|0|600|0|0|264|0|297|0|469|0|268|0|233|0|0|397|0|265|0|205|0|156|0|201|0|0|178|0|250|0|256|0|267|0|0|376|0|313|0|244|0|193|0|316|0|0|299|0|215|0|291|0|373|0|0|170|0|390|0|307|0|256|0|255|0|0|381|0|337|0|306|0|252|0|222|0|0|242|0|181|0|344|0|226|0|0|222|0|234|0|268|0|238|0|410|0|0|322|0|253|0|469|0|375|0|0|243|0|412|0|628|0|1635|0|258|0|0|557|0|298|0|284|0|236|0|652|0|0|141|0|342|0|215|0|179|0|0|208|0|347|0|597|0|819|0|332|0|0|957|0|960|0|271|0|566|0|0|353|0|493|0|725|0|1245|0|586|0|0|1773|0|346|0|1022|0|689|0|684|0|0|1211|0|1457|0|37|0|52|0|0|977|0|177|0|160|0|13|0|80|0|0|7|0|20|0|128|0|86|0|0|3|0|8|0|1187|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|94736</HistCounts>
+      </HistItem>
+    </Histograms>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_MAXIMUM">255</MDI>
+      <MDI key="STATISTICS_MEAN">24.899575408696</MDI>
+      <MDI key="STATISTICS_STDDEV">72.836808391037</MDI>
+      <MDI key="STATISTICS_SKIPFACTORX">1</MDI>
+      <MDI key="STATISTICS_SKIPFACTORY">1</MDI>
+      <MDI key="STATISTICS_EXCLUDEDVALUES"></MDI>
+      <MDI key="STATISTICS_COVARIANCES">5305.20065659262</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>

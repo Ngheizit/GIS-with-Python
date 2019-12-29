@@ -1,0 +1,10 @@
+D:\gitproj\gis2python\程序集合\整合\微博信息提取\MyInfomation\MyInfomation\bin\Debug\MyInfomation.exe.config
+D:\gitproj\gis2python\程序集合\整合\微博信息提取\MyInfomation\MyInfomation\bin\Debug\MyInfomation.exe
+D:\gitproj\gis2python\程序集合\整合\微博信息提取\MyInfomation\MyInfomation\bin\Debug\MyInfomation.pdb
+D:\gitproj\gis2python\程序集合\整合\微博信息提取\MyInfomation\MyInfomation\obj\Debug\MyInfomation.csprojAssemblyReference.cache
+D:\gitproj\gis2python\程序集合\整合\微博信息提取\MyInfomation\MyInfomation\obj\Debug\MyInfomation.Form1.resources
+D:\gitproj\gis2python\程序集合\整合\微博信息提取\MyInfomation\MyInfomation\obj\Debug\MyInfomation.Properties.Resources.resources
+D:\gitproj\gis2python\程序集合\整合\微博信息提取\MyInfomation\MyInfomation\obj\Debug\MyInfomation.csproj.GenerateResource.cache
+D:\gitproj\gis2python\程序集合\整合\微博信息提取\MyInfomation\MyInfomation\obj\Debug\MyInfomation.csproj.CoreCompileInputs.cache
+D:\gitproj\gis2python\程序集合\整合\微博信息提取\MyInfomation\MyInfomation\obj\Debug\MyInfomation.exe
+D:\gitproj\gis2python\程序集合\整合\微博信息提取\MyInfomation\MyInfomation\obj\Debug\MyInfomation.pdb
